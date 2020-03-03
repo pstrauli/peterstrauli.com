@@ -6,6 +6,8 @@
 
 html {
   font-size: 100%;
+  color: #333333;
+  font-family: 'Source Serif Pro', serif;
 }
 
 body {
@@ -13,67 +15,76 @@ body {
 }
 
 nav {
-  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Peter Strauli in top corner */
 .nav_name {
-  background-color: #fff;
+  font-size: 24px;
+  border-bottom: 2px solid #5271FF;
 }
 
 /* Contact link */
 nav a {
-  background-color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #5271FF;
+  padding: 1rem 2rem;
+  border-radius: 50px;
 }
 
 header {
-  background-color: #fff;
+  display: flex;
 }
 
 /* 'Hi I'm Peter Strauli' */
 h1 {
-  background-color: #fff;
+  font-size: 56px;
 }
 
 /* 'I’m a Frontend Developer...' */
 .intro {
-  background-color: #fff;
+  font-size: 27px;
 }
 
 main {
-  background-color: #fff;
+  display: flex;
 }
 
 main h3 {
-  background-color: #fff;
+  font-size: 27px;
 }
 
 main p {
-  background-color: #fff;
+  font-size: 20px;
 }
 
-.frontend {
-  background-color: #fff;
-}
-
-.accessibility {
-  background-color: #fff;
-}
-
-.other_skills {
-  background-color: #fff;
+.frontend, .accessibility, .other_skills {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
-  background-color: #fff;
+  height: 210px;
+  background-color: #5271FF;
 }
 
 footer h2 {
-  background-color: #fff;
+  font-size: 27px;
+  color: #fff;
 }
 
 footer ul li a {
-  background-color: #fff;
+  color: #fff;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  font-size: 27px;
+  text-decoration: underline;
 }
 
 
