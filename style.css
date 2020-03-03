@@ -11,3 +11,70 @@ html {
 body {
   background-color:#F7F7F7;
 }
+
+nav {
+  background-color: #fff;
+}
+
+/* Peter Strauli in top corner */
+.nav_name {
+  background-color: #fff;
+}
+
+/* Contact link */
+nav a {
+  background-color: #fff;
+}
+
+header {
+  background-color: #fff;
+}
+
+/* 'Hi I'm Peter Strauli' */
+h1 {
+  background-color: #fff;
+}
+
+/* 'I’m a Frontend Developer...' */
+.intro {
+  background-color: #fff;
+}
+
+main {
+  background-color: #fff;
+}
+
+main h3 {
+  background-color: #fff;
+}
+
+main p {
+  background-color: #fff;
+}
+
+.frontend {
+  background-color: #fff;
+}
+
+.accessibility {
+  background-color: #fff;
+}
+
+.other_skills {
+  background-color: #fff;
+}
+
+footer {
+  background-color: #fff;
+}
+
+footer h2 {
+  background-color: #fff;
+}
+
+footer ul li a {
+  background-color: #fff;
+}
+
+
+
