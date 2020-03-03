@@ -30,12 +30,15 @@ nav a {
   font-size: 24px;
   text-decoration: none;
   background-color: #5271FF;
+  color: #fff;
   padding: 1rem 2rem;
   border-radius: 50px;
 }
 
 header {
   display: flex;
+  flex-direction: column;
+  margin: 175px 60px; 
 }
 
 /* 'Hi I'm Peter Strauli' */
@@ -50,6 +53,7 @@ h1 {
 
 main {
   display: flex;
+  margin: 0 60px 180px;
 }
 
 main h3 {
@@ -66,13 +70,24 @@ main p {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   height: 210px;
   background-color: #5271FF;
+  padding: 25px 0;
 }
 
 footer h2 {
   font-size: 27px;
   color: #fff;
+  margin-left: 60px;
+}
+
+footer ul {
+ display: flex;
+ flex-direction: column;
+ list-style: none;
+ margin-right: 60px;
 }
 
 footer ul li a {
