@@ -32,9 +32,9 @@ nav {
 
 /* Contact link */
 nav a {
-  font-size: 24px;
+  font-size: 1.5rem;
   text-decoration: none;
-  background-color: #5271FF;
+  background-color: #2447b2;
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 50px;
@@ -87,11 +87,12 @@ main {
   margin: 0 60px 180px;
 }
 
+
 main h3 {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 main p {
@@ -101,26 +102,17 @@ main p {
   text-align: justify;
 }
 
-.frontend, .accessibility, .other_skills {
+section {
   display: flex;
   flex-direction: column;
   width: 30%;
 }
 
-/* .frontend {
-  padding-right: 20px;
-}
-
-.accessibility {
-  padding-right: 20px;
-  
-} */
-
 footer {
   display: flex;
   justify-content: space-between;
   height: 240px;
-  background-color: #5271FF;
+  background-color: #2447b2;
   padding-top: 25px;
   padding-bottom: 25px;
   
@@ -132,7 +124,7 @@ footer h2 {
   color: #fff;
   margin-left: 60px;
   font-weight: 300;
-  line-height: 1.75rem;
+  
 }
 
 footer ul {
@@ -147,10 +139,46 @@ footer ul li a {
   font-size: 1.75rem;
   font-weight: 300;
   text-decoration: none;
+  line-height: 2.5rem;
 }
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1080px) {
+  main {
+    flex-direction: column;
+  }
+  section {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro {
+    font-size: 1.5rem;
+  }
+  footer ul li a {
+    font-size: 1.5rem;
+    line-height: ;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav_name {
+    font-size: 1.5rem;
+  }
+  nav a {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .intro {
+    font-size: 1.25rem;
+  }
 }
 
 
